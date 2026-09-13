@@ -1,0 +1,21 @@
+# Data — do NOT commit
+data/raw/
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# OS / IDE
+.DS_Store
+.vscode/settings.json
+.idea/
+*.code-workspace
+
+# Outputs
+reports/figures/*.png
+!reports/figures/.gitkeep
