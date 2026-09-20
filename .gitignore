@@ -19,3 +19,4 @@ env/
 # Outputs
 reports/figures/*.png
 !reports/figures/.gitkeep
+reports/task2_report.pdf

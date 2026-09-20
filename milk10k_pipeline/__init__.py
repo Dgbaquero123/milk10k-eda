@@ -1,15 +1,17 @@
 """
 milk10k_pipeline
 ================
-Paquete reutilizable para el homework "Extended EDA & Data Pipeline"
-(Computer Vision & Speech Recognition - MILK10k).
+Reusable package for the Task 2 homework "Extended EDA & Data Pipeline"
+(Computer Vision & Speech Recognition, MILK10k).
 
-Modulos:
-    - metadata_analysis : analisis de metadata vs. target (Parte 1)
-    - color_analysis    : histogramas y estadisticas de color (Parte 2)
-    - preprocessing     : funciones de preprocesado de imagenes (Parte 3)
-    - data_loader       : loader de batches para entrenamiento (Parte 4)
-    - visualizer        : utilidades de visualizacion (Parte 5)
+Modules
+-------
+metadata_analysis : metadata correlation with the target (Part 1)
+color_analysis    : dataset level color and histogram analysis (Part 2)
+preprocessing     : reusable image preprocessing functions (Part 3)
+data_loader       : batched data loader for training (Part 4)
+visualizer        : visualization utilities (Part 5)
+export_summaries  : summary tables and interface docs for the report
 """
 
 __version__ = "1.0.0"
