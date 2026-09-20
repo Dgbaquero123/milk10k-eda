@@ -1,6 +1,6 @@
 """
 preprocessing.py
-Parte 3: funciones reutilizables de preprocesado.
+Part 3: reusable image preprocessing functions.
 """
 from pathlib import Path
 import numpy as np

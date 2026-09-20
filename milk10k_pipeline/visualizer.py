@@ -1,6 +1,6 @@
 """
 visualizer.py
-Parte 5: utilidades de visualizacion.
+Part 5: visualization utilities.
 """
 from pathlib import Path
 import numpy as np
@@ -79,7 +79,7 @@ def plot_batch_summary(X, out_path=None):
 
 
 def plot_raw_vs_processed(raw, processed, out_path=None):
-    """Compara una imagen cruda (uint8) vs procesada (float) en 2 subplots."""
+    """Compare a raw (uint8) image against its processed (float) version."""
     fig, axes = plt.subplots(1, 2, figsize=(10, 4))
     axes[0].imshow(raw)
     axes[0].set_title("Raw")

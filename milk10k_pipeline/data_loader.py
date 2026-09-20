@@ -1,6 +1,6 @@
 """
 data_loader.py
-Parte 4: loader de batches para entrenamiento.
+Part 4: batched data loader for training.
 """
 from pathlib import Path
 import numpy as np
