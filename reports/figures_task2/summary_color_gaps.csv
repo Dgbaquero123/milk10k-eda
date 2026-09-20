@@ -1,0 +1,4 @@
+channel,min_class_mean,max_class_mean,global_mean,gap_pct
+R_mean,165.66,172.64,168.37,4.15
+G_mean,117.77,132.21,127.12,11.35
+B_mean,103.59,119.08,113.49,13.65

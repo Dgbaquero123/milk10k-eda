@@ -1,0 +1,18 @@
+column,type,recommendation
+isic_id,identifier,do not use as a feature
+lesion_id,identifier,do not use as a feature; group splits by it
+attribution,constant,uninformative
+copyright_license,constant,uninformative
+age_approx,numeric,"use, with imputation"
+anatom_site_general,categorical,use with caution; proxy for clinical site
+anatom_site_special,categorical,avoid; 98 percent missing
+concomitant_biopsy,boolean,use; informative
+diagnosis_1,target,target
+diagnosis_2,categorical,DO NOT USE; hierarchical leakage
+diagnosis_3,categorical,DO NOT USE; hierarchical leakage
+diagnosis_4,categorical,DO NOT USE; hierarchical leakage
+diagnosis_confirm_type,categorical,use with caution; protocol bias
+image_manipulation,categorical,use with caution; device proxy
+image_type,categorical,uninformative; no variation
+melanocytic,categorical,"uninformative; 77 percent missing, one value"
+sex,categorical,"use; weak effect, Cramer's V about 0.09"

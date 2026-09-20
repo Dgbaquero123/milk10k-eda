@@ -20,3 +20,4 @@ env/
 reports/figures/*.png
 !reports/figures/.gitkeep
 reports/task2_report.pdf
+generate_task2_report.py
