@@ -43,11 +43,11 @@ def show_grid(images, labels=None, ncols=5, title=None, out_path=None):
 
 
 def plot_class_balance(df, out_path=None):
-    """Bar chart de balance de clases."""
+    """Bar chart of class balance."""
     counts = df[TARGET].value_counts()
     fig, ax = plt.subplots(figsize=(7, 4))
     counts.plot(kind="bar", ax=ax, color="steelblue")
-    ax.set_title("Balance de clases (diagnosis_1)")
+    ax.set_title("Class balance (diagnosis_1)")
     ax.set_ylabel("Numero de imagenes")
     ax.set_xlabel("")
     for i, v in enumerate(counts.values):

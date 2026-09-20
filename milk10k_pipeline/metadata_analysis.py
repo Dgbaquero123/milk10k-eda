@@ -1,6 +1,6 @@
 """
 metadata_analysis.py
-Parte 1: analisis de metadata vs. target (diagnosis_1).
+Part 1: metadata analysis vs. target (diagnosis_1).
 """
 from pathlib import Path
 import numpy as np
