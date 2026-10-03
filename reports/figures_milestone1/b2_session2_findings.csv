@@ -1,0 +1,6 @@
+finding,still_true_full_dataset,consequence_for_pipeline
+age_approx is strongly associated with diagnosis_1 (Kruskal-Wallis p ≈ 2.4e-255).,Yes — the full dataset has the same 10480 rows as Session 2.,age_approx can be used as a model input after median imputation.
+concomitant_biopsy and anatom_site_special are strongly associated with the target.,"Yes, but anatom_site_special is 98% missing; concomitant_biopsy has 0% missing.",Drop anatom_site_special; keep concomitant_biopsy as a candidate feature.
+"diagnosis_2, diagnosis_3, diagnosis_4 leak the target hierarchically (Cramér's V = 1.0).",Yes.,Do not use any diagnosis_2/3/4 as model inputs. They are label leakage.
+Color statistics overlap heavily across classes; file size is not a usable shortcut (AUC ≈ 0.5).,Yes (confirmed in A2.2).,"Rely on learned CNN features and texture, not on hand-crafted colour statistics."
+MILK10k is biopsy-enriched (69% Malignant).,Yes (full metadata).,"Use class weights and stratified splits; report balanced accuracy and macro-F1, not accuracy."
