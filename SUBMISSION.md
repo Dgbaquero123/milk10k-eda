@@ -42,3 +42,4 @@
 ### Tests
 
 - Split property tests: [tests/test_splits.py](tests/test_splits.py)
+- Dataset smoke tests: [tests/test_dataset.py](tests/test_dataset.py)

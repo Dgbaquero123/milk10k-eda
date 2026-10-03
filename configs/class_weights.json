@@ -1,0 +1,18 @@
+{
+  "classes": [
+    "Benign",
+    "Indeterminate",
+    "Malignant"
+  ],
+  "class_to_idx": {
+    "Benign": 0,
+    "Indeterminate": 1,
+    "Malignant": 2
+  },
+  "weights": [
+    1.1951775822743564,
+    13.585185185185185,
+    0.4785388127853881
+  ],
+  "label_col": "diagnosis_1"
+}
