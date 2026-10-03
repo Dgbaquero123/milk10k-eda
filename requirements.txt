@@ -24,6 +24,9 @@ torchvision>=0.29
 # PDF report generation
 reportlab>=4.2
 
+# Tests
+pytest>=8.0
+
 # Jupyter / notebook
 jupyterlab>=4.2
 ipykernel>=6.29
