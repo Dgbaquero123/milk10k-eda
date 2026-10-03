@@ -1,0 +1,78 @@
+{
+  "primary_classes": [
+    "Benign",
+    "Indeterminate",
+    "Malignant"
+  ],
+  "primary_to_idx": {
+    "Benign": 0,
+    "Indeterminate": 1,
+    "Malignant": 2
+  },
+  "stretch_11_classes": [
+    "BCC",
+    "NV",
+    "BKL",
+    "SCCKA",
+    "MEL",
+    "AKIEC",
+    "DF",
+    "INF",
+    "VASC",
+    "BEN_OTH",
+    "MAL_OTH"
+  ],
+  "stretch_11_counts": {
+    "BCC": 2522,
+    "NV": 746,
+    "BKL": 544,
+    "SCCKA": 473,
+    "MEL": 450,
+    "AKIEC": 303,
+    "DF": 52,
+    "INF": 50,
+    "VASC": 47,
+    "BEN_OTH": 44,
+    "MAL_OTH": 9
+  },
+  "stretch_threshold": 50,
+  "stretch_kept": [
+    "BCC",
+    "NV",
+    "BKL",
+    "SCCKA",
+    "MEL",
+    "AKIEC",
+    "DF",
+    "INF"
+  ],
+  "stretch_merged": [
+    "VASC",
+    "BEN_OTH",
+    "MAL_OTH"
+  ],
+  "stretch_final_classes": [
+    "BCC",
+    "NV",
+    "BKL",
+    "SCCKA",
+    "MEL",
+    "AKIEC",
+    "DF",
+    "INF",
+    "other"
+  ],
+  "stretch_final_to_idx": {
+    "BCC": 0,
+    "NV": 1,
+    "BKL": 2,
+    "SCCKA": 3,
+    "MEL": 4,
+    "AKIEC": 5,
+    "DF": 6,
+    "INF": 7,
+    "other": 8
+  },
+  "seed": 0,
+  "split_date": "2026-10-03"
+}
