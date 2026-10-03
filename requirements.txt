@@ -10,6 +10,9 @@ seaborn>=0.13
 Pillow>=11.0
 opencv-python>=4.10
 
+# Markdown tables
+ tabulate>=0.9
+
 # Statistics and metrics
 scipy>=1.14
 scikit-learn>=1.5
