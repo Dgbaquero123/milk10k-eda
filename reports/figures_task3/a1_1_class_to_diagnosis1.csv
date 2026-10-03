@@ -1,0 +1,12 @@
+dx_class,n_diagnosis_1,diagnosis_1_values,n_lesions
+AKIEC,2,"Indeterminate, Malignant",606
+BCC,1,Malignant,5044
+BEN_OTH,1,Benign,88
+BKL,1,Benign,1088
+DF,1,Benign,104
+INF,1,Benign,100
+MAL_OTH,1,Malignant,18
+MEL,1,Malignant,900
+NV,1,Benign,1492
+SCCKA,1,Malignant,946
+VASC,1,Benign,94
