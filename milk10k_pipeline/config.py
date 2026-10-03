@@ -32,6 +32,15 @@ for _d in (REPORTS_DIR, FIGURES_DIR, SPLITS_DIR, CONFIGS_DIR):
     _d.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------------------
+# Fail-loud behavior
+# ---------------------------------------------------------------------------
+# By default a missing image raises FileNotFoundError. Set this to True
+# (via the MILK10K_ALLOW_MISSING environment variable) to skip missing
+# files instead. Use only when you know what you are doing.
+import os as _os
+ALLOW_MISSING = _os.environ.get("MILK10K_ALLOW_MISSING", "0") == "1"
+
+# ---------------------------------------------------------------------------
 # Reproducibility
 # ---------------------------------------------------------------------------
 
