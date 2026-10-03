@@ -74,5 +74,11 @@
     "other": 8
   },
   "seed": 0,
-  "split_date": "2026-10-03"
+  "split_date": "2026-10-03",
+  "split_seed": 0,
+  "split_sizes": {
+    "train": 3668,
+    "val": 786,
+    "test": 786
+  }
 }
