@@ -43,3 +43,8 @@
 
 - Split property tests: [tests/test_splits.py](tests/test_splits.py)
 - Dataset smoke tests: [tests/test_dataset.py](tests/test_dataset.py)
+
+## Homework 4 — Filters as Features
+
+- Notebook: [notebooks/homework_part_4.ipynb](notebooks/homework_part_4.ipynb)
+- Figures: [reports/figures_hw4/](reports/figures_hw4/)
