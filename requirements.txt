@@ -9,6 +9,7 @@ seaborn>=0.13
 # Image I/O and processing
 Pillow>=11.0
 opencv-python>=4.10
+scikit-image>=0.24
 
 # Markdown tables
  tabulate>=0.9

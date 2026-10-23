@@ -22,3 +22,6 @@ reports/figures/*.png
 reports/task2_report.pdf
 generate_task2_report.py
 reports/milestone1_report.pdf
+
+# Homework 5: cached image features (regenerate with scripts/extract_features.py)
+data/processed/

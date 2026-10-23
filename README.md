@@ -88,3 +88,16 @@ raw dataset is the only thing not committed.
   is provided as an alternative. Both options are implemented in B8.
 
 See `reports/milestone1_report.pdf` for the full write-up.
+
+## 6. Homework 5 — classical ML baseline
+
+A classical baseline (`milk10k_pipeline/features.py`, `milk10k_pipeline/baseline.py`,
+`notebooks/homework_part_5.ipynb`) compares 10 hand-crafted feature sets
+(colour, GLCM/LBP texture, the Homework 4 filter bank, ABCD-style shape,
+HOG, metadata, and combinations) and 5 models (logistic regression,
+SVM-RBF, k-NN, random forest, histogram gradient boosting) with 5-fold
+`StratifiedGroupKFold` on the train split, confirms the choice on val
+and reports the test split once with bootstrap confidence intervals.
+The final baseline is a soft-voting ensemble of tuned gradient boosting
+and SVM-RBF on colour + texture + filter bank + shape features of both
+views plus metadata. See `SUBMISSION.md` for links and results.
