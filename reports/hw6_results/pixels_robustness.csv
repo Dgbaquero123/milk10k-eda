@@ -1,0 +1,4 @@
+test images,test macro-F1 (mean of 5 seeds),% of lesions whose prediction changes
+original,0.5332375753289906,0.0
+mirrored left-right,0.5257732721159103,14.122137404580155
+shifted 2 px,0.5382491211060938,10.05089058524173

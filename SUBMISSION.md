@@ -76,3 +76,25 @@ pytest tests/test_features.py
 The notebook re-uses `reports/hw5_results/cv_grid.csv` and `tuning.csv` if
 they exist (the full 50-configuration grid and the grid search take about
 1.5 h on a laptop); delete them to recompute from scratch.
+
+## Homework 6 — MLP, `nn.Conv2d`, and raw pixels
+
+1. MLP on the Session 5 features, added to the scoreboard next to the baseline.
+2. `nn.Conv2d` arguments for Session 4's kernel size, stride and padding.
+3. MLP on raw pixels (32×32×3 = 3,072 numbers) vs the feature baseline, and why.
+
+- Notebook (all answers): [notebooks/homework_part_6.ipynb](notebooks/homework_part_6.ipynb)
+- Notebook (PDF, submitted): [notebooks/homework_part_6.pdf](notebooks/homework_part_6.pdf)
+- MLP model, training loop, 32×32 pixel loader: [milk10k_pipeline/mlp.py](milk10k_pipeline/mlp.py)
+- Tests: [tests/test_mlp.py](tests/test_mlp.py)
+- Project scoreboard (all sessions, same splits and metrics): [reports/scoreboard.csv](reports/scoreboard.csv)
+- Figures: [reports/figures_hw6/](reports/figures_hw6/)
+- Result tables (CSV): [reports/hw6_results/](reports/hw6_results/)
+
+Reproduce (about 20 min on a laptop CPU; needs `data/processed/image_features.csv.gz`
+from `scripts/extract_features.py`; the 32×32 pixel cache is built on first run):
+
+```bash
+jupyter nbconvert --to notebook --execute --inplace notebooks/homework_part_6.ipynb
+pytest tests/test_mlp.py
+```

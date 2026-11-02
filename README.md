@@ -101,3 +101,14 @@ and reports the test split once with bootstrap confidence intervals.
 The final baseline is a soft-voting ensemble of tuned gradient boosting
 and SVM-RBF on colour + texture + filter bank + shape features of both
 views plus metadata. See `SUBMISSION.md` for links and results.
+
+## 7. Homework 6 — MLP and raw pixels
+
+`milk10k_pipeline/mlp.py` and `notebooks/homework_part_6.ipynb` train a
+PyTorch MLP (a) on the Session 5 hand-crafted features and (b) on raw
+32×32×3 pixels, with early stopping on an inner split of train so that
+val and test stay untouched, and 5 seeds per configuration. Results of
+every session are collected in `reports/scoreboard.csv`. On features the
+MLP is on par with the Session 5 baseline; on raw pixels it is clearly
+worse, and a pixel-shuffling test shows it does not use spatial structure,
+which motivates the CNN of Milestone 2.
